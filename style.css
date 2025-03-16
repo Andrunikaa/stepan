@@ -1,0 +1,143 @@
+body {
+  font-family: Open Sans;
+}
+h1 {
+  text-align: center;
+}
+/*qqweqweqweqweqweqe*/
+.buttons {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  display: block; /*qqweqweqweqweqweqe*/
+}
+
+.stepan {
+  border: none;
+  background: none;
+  width: 110px;
+  height: 30px;
+  background: grey;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+.Nestepan {
+  border: none;
+  background: none;
+  width: 110px;
+  height: 30px;
+  background: grey;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+/*qqweqweqweqweqweqe*/
+.input__box {
+  margin: auto;
+  width: 90%;
+  display: none; /*qqweqweqweqweqweqe*/
+}
+.input__stepans {
+  border: 1px solid black;
+  display: block;
+  margin: auto;
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+}
+.input__box2 {
+  margin: auto;
+  width: 90%;
+  display: none; /*qqweqweqweqweqweqe*/
+}
+.input__stepans2 {
+  border: 1px solid black;
+  display: block;
+  margin: auto;
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+}
+.submit {
+  border: none;
+  background: none;
+  width: 110px;
+  height: 30px;
+  background: grey;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+.submit2 {
+  border: none;
+  background: none;
+  width: 110px;
+  height: 30px;
+  background: grey;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+/*qqweqweqweqweqweqe*/
+.choice {
+  display: none; /*qqweqweqweqweqweqe*/
+  width: 80%;
+  margin: auto;
+}
+.deistvie-plus {
+  border: none;
+  background: none;
+  width: 40px;
+  height: 30px;
+  background: grey;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+.deistvie-minus {
+  border: none;
+  background: none;
+  width: 40px;
+  height: 30px;
+  background: grey;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+.deistvie-umn {
+  border: none;
+  background: none;
+  width: 40px;
+  height: 30px;
+  background: grey;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+.deistvie-delit {
+  border: none;
+  background: none;
+  width: 40px;
+  height: 30px;
+  background: grey;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+}
+.reload {
+  border: none;
+  background: none;
+  width: 160px;
+  height: 50px;
+  background: grey;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  margin-left: 120px;
+  margin-top: 10px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Степан</title>
+  </head>
+  <body>
+    <h1>Калькулятор Степана</h1>
+    <div class="buttons">
+      <h2>Выбери: Степан или НеСтепан</h2>
+      <button class="stepan">Степан</button>
+      <button class="Nestepan">Не Степан</button>
+    </div>
+    <form class="input__box">
+      <input
+        placeholder="Введи первое кол-во степанов"
+        type="number"
+        class="input__stepans"
+      />
+      <button class="submit">Подтвердить</button>
+    </form>
+    <form class="input__box2">
+      <input
+        placeholder="Введи второе кол-во степанов"
+        type="number"
+        class="input__stepans2"
+      />
+      <button class="submit2">Подтвердить</button>
+    </form>
+    <form class="choice">
+      <div style="margin-left: 70px">
+        <button class="deistvie-plus">+</button>
+        <button class="deistvie-minus">-</button>
+        <button class="deistvie-umn">*</button>
+        <button class="deistvie-delit">:</button>
+      </div>
+    </form>
+
+    <div class="result">
+      <h3 class="result__value" style="text-align: center">0</h3>
+    </div>
+    <button onClick="window.location.reload();" class="reload">Заново</button>
+    <script src="script.js"></script>
+  </body>
+</html>
