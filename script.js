@@ -21,7 +21,6 @@ stepan.addEventListener("click", function () {
   StepanValue = 1;
   stepanContainer.style.display = "none";
   inputs.style.display = "block";
-  result.textContent = StepanValue;
 });
 NeStepan.addEventListener("click", function () {
   StepanValue = -1;
